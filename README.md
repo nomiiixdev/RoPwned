@@ -1,11 +1,11 @@
-# 📁 RoPwned — Roblox Quality-of-Life Suite
+# 📁 RoPwned — Roblox Quality-of-Life extension
 **Created by PwnedNomiiix (`@nomiiixdev`)**
 
 **RoPwned** is a free, open-source browser extension for Chrome, Edge, Brave, and Opera that lets you organize your Roblox Friends list into collapsible folders and save private local notes.
 
 ---
 
-## ✨ Features (v1.0.0)
+## ✨ Features
 * **Collapsible Friend Folders:** Group your friends into custom folders (*Squad*, *Traders*, *Devs*, or any name you create).
 * **Private Local Notes:** Add notes to any friend card so you never forget where you met or who someone is.
 * **One-Click Controls:** Easily move friends into folders, remove them, or delete folders anytime.
