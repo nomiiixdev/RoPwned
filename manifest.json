@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "RoPwned - Roblox Quality-of-Life Suite",
+  "version": "1.0.0",
+  "description": "Organize your Roblox friends into folders, add private notes, and unlock extra tools by PwnedNomiiix.",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "RoPwned Settings",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.roblox.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

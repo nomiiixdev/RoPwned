@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 260px;
+      background-color: #191b1d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 16px;
+      margin: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #393b3d;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #00b06f;
+    }
+    .author {
+      font-size: 11px;
+      color: #bdbebe;
+    }
+    .feature-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #232527;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      font-size: 13px;
+    }
+    .discord-btn {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      background-color: #5865F2;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .discord-btn:hover {
+      background-color: #4752C4;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="title">RoPwned</span>
+    <span class="author">by PwnedNomiiix</span>
+  </div>
+
+  <div class="feature-row">
+    <span>Friend Folders & Notes</span>
+    <input type="checkbox" id="toggle-folders" checked>
+  </div>
+
+  <!-- Replace the href below with your real Discord invite link later! -->
+  <a href="https://discord.gg/MbpxHJredS" target="_blank" class="discord-btn">
+    Join the RoPwned Discord
+  </a>
+
+  <script src="popup.js"></script>
+</body>
+</html>
